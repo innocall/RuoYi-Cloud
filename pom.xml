@@ -3,17 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.ruoyi</groupId>
-    <artifactId>ruoyi</artifactId>
+    <groupId>com.hk</groupId>
+    <artifactId>hk</artifactId>
     <version>2.0.0</version>
-
-    <name>ruoyi</name>
-    <url>http://www.ruoyi.vip</url>
-    <description>若依微服务系统</description>
+    <name>hk-cloud</name>
+    <description>家政众包平台</description>
 
     <properties>
-        <ruoyi.version>2.0.0</ruoyi.version>
+        <hk.version>2.0.0</hk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -156,63 +153,63 @@
 
             <!-- 核心模块 -->
 	        <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-core</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.hk</groupId>
+                <artifactId>hk-common-core</artifactId>
+                <version>${hk.version}</version>
             </dependency>
 			
             <!-- 接口模块 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-swagger</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.hk</groupId>
+                <artifactId>hk-common-swagger</artifactId>
+                <version>${hk.version}</version>
             </dependency>
 	        
             <!-- 安全模块 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-security</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.hk</groupId>
+                <artifactId>hk-common-security</artifactId>
+                <version>${hk.version}</version>
             </dependency>
 	        
             <!-- 权限范围 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-datascope</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.hk</groupId>
+                <artifactId>hk-common-datascope</artifactId>
+                <version>${hk.version}</version>
             </dependency>
 			
             <!-- 日志记录 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-log</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.hk</groupId>
+                <artifactId>hk-common-log</artifactId>
+                <version>${hk.version}</version>
             </dependency>
 			
             <!-- 缓存服务 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-redis</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.hk</groupId>
+                <artifactId>hk-common-redis</artifactId>
+                <version>${hk.version}</version>
             </dependency>
 			
             <!-- 系统接口 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-api-system</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.hk</groupId>
+                <artifactId>hk-api-system</artifactId>
+                <version>${hk.version}</version>
             </dependency>
 			
         </dependencies>
     </dependencyManagement>
 
     <modules>
-		<module>ruoyi-auth</module>
-		<module>ruoyi-gateway</module>
-		<module>ruoyi-visual</module>
-		<module>ruoyi-modules</module>
-		<module>ruoyi-api</module>
-		<module>ruoyi-common</module>
+		<module>hk-auth</module>
+		<module>hk-gateway</module>
+		<module>hk-visual</module>
+		<module>hk-modules</module>
+		<module>hk-api</module>
+		<module>hk-common</module>
     </modules>
     <packaging>pom</packaging>
 
